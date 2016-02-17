@@ -1,0 +1,35 @@
+body {
+    background: #262626;
+}
+
+h1,h2{
+    text-align: center;
+    color: #8a8a8a;
+}
+
+div {
+    border-radius: 25px;
+    background-color:#ffffd7;
+    width: 50%;
+    margin:auto;
+    padding:2%;
+    color: #808080;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+div.empty{
+    padding:0%;
+    margin:5%;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

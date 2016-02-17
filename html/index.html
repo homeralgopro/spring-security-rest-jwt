@@ -1,0 +1,45 @@
+<html>
+<head>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/car.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/car.css">
+    <Title>Car Management</Title>
+</head>
+
+<body>
+<h1>Car Management</h1>
+
+<div id="key">
+    <h2> -- Your Bearer tag -- </h2>
+</div>
+<!--<hr>-->
+
+<div class="empty"></div>
+<div id="car_list">
+    <button type="button" id="request_car">
+        Show cars
+    </button>
+    <div id="cars">
+
+    </div>
+</div>
+<!--<hr>-->
+<div class="empty"></div>
+<div>
+    <h2> -- Add a car -- </h2>
+    <form id="add_car_form">
+        name : <input type="text" id="name">
+        <br>
+        brand : <input type="text" id="brand">
+        <br>
+        <input type="submit" value="Enter">
+    </form>
+</div>
+<!--<hr>-->
+
+<div class="empty"></div>
+<div id="car_created" hidden>
+    <h2> -- Car Created -- </h2>
+</div>
+</body>
+</html>
